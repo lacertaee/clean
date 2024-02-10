@@ -137,8 +137,6 @@ var taskIncomplete=function(){
     bindTaskEvents(listItem,taskCompleted);
 }
 
-//s
-
 var ajaxRequest=function(){
     console.log("AJAX Request");
 }
