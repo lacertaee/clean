@@ -35,14 +35,18 @@
 .task-row-wrapper {
     display: flex;
 }
-#completed, #incomplete {
+#completed,
+#incomplete {
     margin: 0;
     padding: 0px;
 }
-.task-li, .header {
+.task-li,
+.header {
     list-style: none;
 }
-input, .delete, .edit {
+input,
+.delete,
+.edit {
     outline: none;
 }
 button {
