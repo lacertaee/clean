@@ -11,7 +11,7 @@
             charset="utf-8"
         >
     </head>
-    <body>
+    <body class="page">
         <div class="header">
             <img src="./eisenhower-matrix.jpg">
             <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
@@ -24,18 +24,18 @@
                     <button>Add</button>
                 </div>
             </p>
-            <h3>Todo</h3>
+            <h3 class="heading">Todo</h3>
             <ul id="incomplete">
-                <li>
+                <li class="task-li">
                     <input type="checkbox">
                     <label class="task">Pay Bills</label>
-                    <input type="text" class="task">
+                    <input type="text" class="task editing">
                     <button class="edit">Edit</button>
                     <button class="delete">
                         <img src="./remove.svg">
                     </button>
                 </li>
-                <li class="edit-mode">
+                <li class="edit-mode task-li">
                     <input type="checkbox">
                     <label class="task">Go Shopping</label>
                     <input 
@@ -49,12 +49,12 @@
                     </button>
                 </li>
             </ul>
-            <h3>Completed</h3>
+            <h3 class="heading">Completed</h3>
             <ul id="completed">
-                <li>
+                <li class="task-li">
                     <input type="checkbox" checked>
                     <label class="task">See the Doctor</label>
-                    <input type="text" class="task">
+                    <input type="text" class="task editing">
                     <button class="edit">Edit</button>
                     <button class="delete">
                         <img src="./remove.svg">
