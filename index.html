@@ -14,19 +14,19 @@
     <body class="page">
         <article class="header">
             <img src="./eisenhower-matrix.jpg" alt="hower matrix">
-            <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+            <a class="header__info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
         </article>
         <section class="main">
-            <div id="task-container">
+            <div class="main__container">
                 <label for="new-task">Add Item</label>
-                <div class="add-task">
-                    <input id="new-task"class="task" type="text">
+                <div class="main__container__add-task">
+                    <input id="new-task" class="task" type="text">
                     <button>Add</button>
                 </div>
             </div>
-            <h3 class="heading">Todo</h3>
-            <ul id="incomplete">
-                <li class="task-li">
+            <h3 class="main__heading">Todo</h3>
+            <ul class="main__incomplete">
+                <li class="main__incomplete__task-li">
                     <input type="checkbox">
                     <label class="task">Pay Bills</label>
                     <input type="text" class="task editing">
@@ -35,7 +35,7 @@
                         <img src="./remove.svg" alt="remove">
                     </button>
                 </li>
-                <li class="edit-mode task-li">
+                <li class="main__incomplete__task-li edit-mode">
                     <input type="checkbox">
                     <label class="task">Go Shopping</label>
                     <input 
@@ -49,9 +49,9 @@
                     </button>
                 </li>
             </ul>
-            <h3 class="heading">Completed</h3>
-            <ul id="completed">
-                <li class="task-li">
+            <h3 class="main__heading">Completed</h3>
+            <ul class="main__completed">
+                <li class="main__completed__task-li">
                     <input type="checkbox" checked>
                     <label class="task">See the Doctor</label>
                     <input type="text" class="task editing">
